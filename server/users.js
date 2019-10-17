@@ -1,8 +1,8 @@
 const users = [];
 
 const addUser = ({id, name, room}) => {
-nama = name.trim().toLowerCase();
-nama = name.trim().toLowerCase();
+name = name.trim().toLowerCase();
+room = room.trim().toLowerCase();
 
 const exitingUser = users.find((user) => user.room === room && user.name ===name);
 
